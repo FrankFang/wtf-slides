@@ -1,0 +1,19 @@
+<title>首页</title>
+
+<form id=myForm>
+  <span>
+    <script>
+      var prefix = location.href.substring(0, location.href.lastIndexOf('/')+1)
+      document.write(prefix)
+    </script>
+    <input id=pptName type="" palceholder="PPT名称">.html
+  </span>
+  <button type=submit id=go>前往</button>
+</form>
+
+<script>
+  myForm.onsubmit = function(){
+    location.href = prefix + pptName.value.trim() + '.html'
+    return false
+  }
+</script>
