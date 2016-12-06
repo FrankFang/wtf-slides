@@ -1,5 +1,7 @@
 # 前端开发者专用的 PPT 制作页面
 
+实例：https://frankfang.github.io/wtf-slides/示例.html
+
 ## 使用方法
 
 1. Fork 本项目
